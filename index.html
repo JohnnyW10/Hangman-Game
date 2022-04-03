@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zadanie 1</title>
+
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <section id="takingValueField">
+    <h3>Start the game</h3>
+    <p>Here you can enter you keyword to game</p>
+    <input type="password" placeholder="Enter your slogan" id="passwordValue"/>
+    <p>Add some advice or short description</p>
+    <input type="text" placeholder="Enter description" id="passwordDescriptionValue"/>
+    <button id="commitPasswordButton">Accept it</button>
+  </section>
+  <section id="displayPasswordBox">
+    <h1>Game password! Guess the password to win the game !</h1>
+    <h1 id="displayPassword"></h1>
+    <h3 id="displayDescription"></h3>
+    <h3 id="whichTurn"></h3>
+  </section>
+  <section id="addPlayers">
+    <div id="addingBox">
+      <h1>Add players</h1>
+      <input type="text" placeholder="Name..." id="playerName">
+      <button id="addPlayerBtn">Add</button>
+    </div>
+    <div id="playersList">
+      <p>Users</p>
+      <div class="players"><p>ID</p><p>Name</p><p>Pts</p></div>
+    </div>
+  </section>
+  <section id="keyboardDisplay">
+    <div id="keyboard"></div>
+  </section>
+  <script src="main.js"></script>
+</body>
+</html>
