@@ -80,6 +80,7 @@ function game(value) {
   if(inner === passwordsHolder) {
     alert('Wygrałeś!')
   }
+  console.log("Work")
 }
 
 
